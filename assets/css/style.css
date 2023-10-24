@@ -179,25 +179,17 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
+}
+h1 span {
   position: relative;
 }
 
-h1 svg {
+h1 span img {
   position: absolute;
   bottom: -13px;
   left: -1px;
   opacity: 50%;
-  width: 426px;
-}
-
-@media screen and (min-width: 1200px) {
-  h1 svg {
-    bottom: -12px;
-    right: 166px;
-    left: unset;
-    opacity: 50%;
-    width: 445.5px;
-  }
+  width: 100%;
 }
 
 p,
